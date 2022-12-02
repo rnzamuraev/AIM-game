@@ -160,7 +160,7 @@ function restart() {
   screens[1].style.visibility = "hidden";
   setTimeout(() => {
     screens[1].classList.remove("up");
-    setTimeout(showScreen, 250);
+    setTimeout(showScreen, 300);
   }, 500);
   wrapBoard.remove();
   score = 0;

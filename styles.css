@@ -28,7 +28,7 @@ a:hover {
 
 h1 {
   line-height: 1.4;
-  font-size: 4rem;
+  font-size: 3.8rem;
 }
 
 .screen {
@@ -130,4 +130,18 @@ h1 {
   position: absolute;
   border-radius: 50%;
   cursor: pointer;
+}
+
+@media (max-width: 520px) {
+  .board {
+    width: 95vw;
+    height: 80vh;
+  }
+  .wrapper {
+    padding: 0;
+    width: 90vw;
+  }
+  .wrapper h3 {
+    font-size: 1rem;
+  }
 }
